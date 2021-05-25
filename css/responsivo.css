@@ -1,0 +1,131 @@
+img,
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (min-width: 1240px) {
+
+h3 {
+    display: none;
+}
+
+nav .fa-bars{
+    display: none;
+}
+
+header nav ul{
+    display: block;
+    list-style: none;
+    margin-top: 35px;
+    }
+
+header nav ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px; 
+}
+
+a:hover li{
+   color: #CCA43B;
+}
+
+
+#principal div.imagen {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px 80px 5px;
+       
+       }
+
+#principal div.imagen h2 {
+    margin-top: 75px;
+    margin-right: 90px;
+    font-size: 35px;
+}
+
+#principal div.imagen img{
+    width: 500px;
+    height: 300px;
+}
+
+#principal div p{
+    font-size: 22px;
+    margin-right: 20px;
+    margin-left: 15px;
+    line-height: 32px;
+}
+
+#contacto div.link {
+    display: block;
+    margin-top: 150px;
+    font-size: 22px;
+    text-decoration-line: underline;
+    color:blue;
+}
+
+#contacto section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20%;    
+}
+
+#videos p{
+    display: block;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#videos section div{
+    margin-bottom: 3%;
+}
+
+#videos section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3%;
+}
+
+#videos div.ancho-30{
+      width: 30%;
+}
+
+#preguntas section div p{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
+    }
+
+#preguntas main {
+    margin-top: 96px;
+    margin-bottom: 55px;
+ }
+
+#preguntas section{
+    padding: 2%;
+}
+
+#preguntas section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#preguntas .ancho-50{
+    width: 47.5%;
+}
+
+#preguntas div h2{
+    margin-top: 18px;
+}
+
+}

@@ -1,0 +1,17 @@
+#contacto div.iconos ul{
+    list-style: none;
+    padding: 5px 60px 60px 100px;
+   
+}
+
+#contacto div.iconos ul li {
+    padding: 15px;
+}
+
+#contacto div.link {
+    display: none;
+}
+
+#contacto h3{
+    margin-top: 130px;
+}
